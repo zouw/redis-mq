@@ -1,0 +1,14 @@
+MQ_CONF_PATH         = "../conf/mq.conf"
+MQ_ICE_PORT          = 30002
+ZK_SUFFIX_PATH       = ".service_nodes"
+ZK_TIME_OUT          = 10000
+DISP_TIME_OUT        = 1000000
+MAX_SUBS_ONE_DISP    = 100   # one dispatcher can have MAX_SUB_ONE_DISP subscribers
+SUB_RETRY_INTEVAL    = 5
+SLEEP_DISP_NO_SUB    = 2
+SLEEP_DISP_NO_REDIS  = 10
+SLEEP_REC_NO_REDIS   = 10
+SLEEP_POLLING        = 30
+SLEEP_ZK_REGISTER    = 5
+THREAD_PER_DISP      = 10
+PID_FILE_PATH        = '/data/server_log/logs/x2_mq/pid'
